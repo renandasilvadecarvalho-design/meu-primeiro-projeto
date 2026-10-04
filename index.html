@@ -1,0 +1,31 @@
+<!doctype html
+<html>
+<head>
+  <title>Login Simples</title>
+    </head>
+
+    </body>
+
+ <h1>Login</h1>  
+ 
+ 
+<form onsubmit="mostrarDados(evevt)"
+<input type="text" id="nome">
+<input type="password" id="senha">
+<button type="submit">Entrar</button>
+</form>
+
+</script>
+function mostrarDados(event){
+event.preventDefault();
+
+const nome = document.getElementById("nome").value;
+const senha = document.getElementById("senha").value;
+
+alert("Nome: " + nome + "\nSenha: " + senha);
+}
+</script>
+
+</body>
+
+</html>
